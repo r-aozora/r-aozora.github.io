@@ -783,6 +783,26 @@ video {
   max-width: 36rem;
 }
 
+.max-w-\[px\] {
+  max-width: px;
+}
+
+.max-w-\[100px\] {
+  max-width: 100px;
+}
+
+.max-w-\[60px\] {
+  max-width: 60px;
+}
+
+.max-w-\[75px\] {
+  max-width: 75px;
+}
+
+.max-w-\[80px\] {
+  max-width: 80px;
+}
+
 .origin-bottom-left {
   transform-origin: bottom left;
 }
@@ -1434,6 +1454,14 @@ body {
 
   .lg\:max-w-full {
     max-width: 100%;
+  }
+
+  .lg\:max-w-\[100px\] {
+    max-width: 100px;
+  }
+
+  .lg\:max-w-\[75px\] {
+    max-width: 75px;
   }
 
   .lg\:scale-125 {
